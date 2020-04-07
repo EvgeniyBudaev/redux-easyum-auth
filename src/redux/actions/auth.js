@@ -33,6 +33,7 @@ export const onHandleLogin = (email, password) => dispatch => {
     "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=" +
     API_KEY;
   dispatch(authStart());
+  dispatch(cleanError());
   // request handle
   axios
     .post(url, {

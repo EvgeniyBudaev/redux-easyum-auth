@@ -25,6 +25,9 @@ export const ProductPageWrap = ({ userId }) => {
     prods.map(item => (
       <div key={item.id} className={classes.item}>
         <div className={classes.title}>{item.title}</div>
+        <div>
+          <img src={item.img} className='img-thumbnail' alt={item.title}></img>
+        </div>
         <div className={classes.price}>{item.price}</div>
       </div>
     ));

@@ -15,6 +15,7 @@ In the project directory, you can run:
 ### `npm install --save redux-thunk`
 
 ### `npm install axios`
+### `npm install @types/react-transition-group`
 
 ### `npm start`
 
